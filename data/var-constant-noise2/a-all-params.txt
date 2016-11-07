@@ -1,0 +1,118 @@
+COST_HIGH: 10
+COST_LOW: 1
+DOM_FNAPPROX: fnapprox
+DOM_SIM: sim
+EVAL_SAMPLES_AXIS: 71
+FIELD_HIGH_COST_CIRCLE1: (0.0, 2.0)
+FIELD_HIGH_COST_CIRCLE2: (-1.5, -1.5)
+FIELD_HIGH_COST_CIRCLE3: (1.5, -1.5)
+FIELD_HIGH_COST_MARGIN: 2
+FIELD_HIGH_COST_RADIUS: 1.0
+FIELD_RADIUS: 7.0
+INPUTDIM: 2
+INPUT_RANGE: [[-7.0, 7.0], [-7.0, 7.0]]
+NUM_CORES: 8
+NUM_ITERS: 40
+NUM_SAMPLES: 5
+NUM_TRIALS: 8
+OUTPUTDIM: 1
+USE_MULTIPROCESSING: True
+clamp: <bound method type.clamp of <class '__main__.DomainFnApprox'>>
+cost_fn: <bound method DomainFnApprox.cost_fn_sides of <__main__.DomainFnApprox object at 0xa02204c>>
+cost_fn_circles: <bound method DomainFnApprox.cost_fn_circles of <__main__.DomainFnApprox object at 0xa02204c>>
+cost_fn_diag: <bound method DomainFnApprox.cost_fn_diag of <__main__.DomainFnApprox object at 0xa02204c>>
+cost_fn_sides: <bound method DomainFnApprox.cost_fn_sides of <__main__.DomainFnApprox object at 0xa02204c>>
+fn: <bound method DomainFnApprox.fn of <__main__.DomainFnApprox object at 0xa02204c>>
+fn_base: <bound method DomainFnApprox.fn_base_hills of <__main__.DomainFnApprox object at 0xa02204c>>
+fn_base_geom: <bound method DomainFnApprox.fn_base_geom of <__main__.DomainFnApprox object at 0xa02204c>>
+fn_base_hills: <bound method DomainFnApprox.fn_base_hills of <__main__.DomainFnApprox object at 0xa02204c>>
+fn_noise: <bound method DomainFnApprox.fn_noise_constant of <__main__.DomainFnApprox object at 0xa02204c>>
+fn_noise_constant: <bound method DomainFnApprox.fn_noise_constant of <__main__.DomainFnApprox object at 0xa02204c>>
+fn_noise_proportional: <bound method DomainFnApprox.fn_noise_proportional of <__main__.DomainFnApprox object at 0xa02204c>>
+fn_noise_zero: <bound method DomainFnApprox.fn_noise_zero of <__main__.DomainFnApprox object at 0xa02204c>>
+generate_grid_points: <bound method DomainFnApprox.generate_grid_points of <__main__.DomainFnApprox object at 0xa02204c>>
+generate_random_points: <bound method DomainFnApprox.generate_random_points of <__main__.DomainFnApprox object at 0xa02204c>>
+input_range: [[-7.0, 7.0], [-7.0, 7.0]]
+inputdim: 2
+is_valid_mode: <bound method type.is_valid_mode of <class '__main__.DomainFnApprox'>>
+make_evaluation_datasets: <bound method DomainFnApprox.make_evaluation_datasets of <__main__.DomainFnApprox object at 0xa02204c>>
+mode: fnapprox
+new: <bound method type.new of <class '__main__.DomainFnApprox'>>
+outputdim: 1
+var_fn: <bound method DomainFnApprox.var_fn of <__main__.DomainFnApprox object at 0xa02204c>>
+EXP_ACTCOST: actcost
+EXP_ACTIVE: active
+EXP_ACTNET: actnet
+EXP_ACTVAR: actvar
+EXP_RANDOM: random
+NUM_HIDDEN1: 40
+NUM_HIDDEN2: 20
+compute_avgs: <bound method ActVarExperiment.compute_avgs of <__main__.ActVarExperiment object at 0xa02212c>>
+current_avg_cost: 0.0
+current_error: 0.0
+current_error_times_avg_cost: 0.0
+domain: <__main__.DomainFnApprox object at 0xa02204c>
+ensemble: <__main__.Ensemble object at 0xa02218c>
+ensemble_size: 5
+eval_costset: input: dim(8190, 2)
+[[-7.        -7.       ]
+ [-7.        -6.8028169]
+ [-7.        -6.6056338]
+ ..., 
+ [ 6.8028169  6.4084507]
+ [ 6.8028169  6.6056338]
+ [ 6.8028169  6.8028169]]
+
+target: dim(8190, 1)
+[[ 10.]
+ [ 10.]
+ [ 10.]
+ ..., 
+ [  1.]
+ [  1.]
+ [  1.]]
+
+
+eval_dataset: input: dim(8190, 2)
+[[-7.        -7.       ]
+ [-7.        -6.8028169]
+ [-7.        -6.6056338]
+ ..., 
+ [ 6.8028169  6.4084507]
+ [ 6.8028169  6.6056338]
+ [ 6.8028169  6.8028169]]
+
+target: dim(8190, 1)
+[[-0.99916736]
+ [-0.99911698]
+ [-0.99905874]
+ ..., 
+ [-0.99894074]
+ [-0.99900835]
+ [-0.99906659]]
+
+
+get_training_point: <bound method ActVarExperiment.get_training_point of <__main__.ActVarExperiment object at 0xa02212c>>
+is_valid_mode: <bound method type.is_valid_mode of <class '__main__.ActVarExperiment'>>
+iteration: 0
+iters: 40
+mode: actvar
+new: <bound method type.new of <class '__main__.ActVarExperiment'>>
+run: <bound method ActVarExperiment.run of <__main__.ActVarExperiment object at 0xa02212c>>
+train_dataset: input: dim(0, 2)
+[]
+
+target: dim(0, 1)
+[]
+
+
+train_varset: input: dim(0, 2)
+[]
+
+target: dim(0, 1)
+[]
+
+
+trial_number: 0
+var_ensemble: <__main__.Ensemble object at 0xa04c1ac>
+write_plot_data: <bound method ActVarExperiment.write_plot_data of <__main__.ActVarExperiment object at 0xa02212c>>
